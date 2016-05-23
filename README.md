@@ -6,6 +6,8 @@ Amazon Web Services. The script may either be triggered directly
 
 ## Run manually
 
+Copy *conf.js.dist* to *conf.js* and define which volumes to back up.
+
 Make sure you’ve valid AWS credentials within ~/.aws and run
 
 ```Shell
