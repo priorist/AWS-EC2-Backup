@@ -1,0 +1,20 @@
+{
+  "name": "paritaetische-akademie-berlin-lambda-ec2-backup",
+  "version": "1.0.0",
+  "description": "Automatically create and delete snapshots of EC2 volumes. Compatible with AWS Lambda.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node run.js",
+    "build": "zip -r ec2-backup.zip . -x *.git*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:priorist/AWS-EC2-Backup.git"
+  },
+  "author": "priorist",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "aws-sdk": "^2.3.13"
+  }
+}

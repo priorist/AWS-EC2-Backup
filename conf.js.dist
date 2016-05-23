@@ -1,0 +1,10 @@
+module.exports = {
+    region: 'eu-central-1',
+    maxAge: 30,
+    snapshotDescription: 'Automated backup',
+    volumes: [
+        'fist-volume-id',
+        'second-volume-id',
+        'third-volume-id'
+    ]
+};
